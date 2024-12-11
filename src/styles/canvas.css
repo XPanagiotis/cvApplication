@@ -1,0 +1,4 @@
+.canvas {
+  flex: 2;
+  background-color: var(--white-color);
+}

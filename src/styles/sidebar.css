@@ -1,0 +1,35 @@
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white-color);
+}
+
+.sidebar-section-button {
+  background-color: var(--white-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1em 2.2em;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-bottom: var(--lightgrey-border);
+}
+
+.sidebar-section-button:hover {
+  background-color: var(--lightgrey-color);
+}
+
+.sidebar-section-button > img {
+  transition: transform 0.3s;
+  width: 20px;
+}
+
+.open-form {
+  transform: rotate(180deg);
+}
+.hide-form {
+  transform: rotate(0);
+}
