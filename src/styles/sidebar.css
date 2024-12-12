@@ -6,6 +6,13 @@
   background-color: var(--white-color);
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: var(--lightgrey-border);
+}
+
 .sidebar-section-button {
   background-color: var(--white-color);
   width: 100%;
@@ -15,10 +22,14 @@
   padding: 1.1em 2.2em;
   font-size: 1.1em;
   font-weight: 700;
-  border-bottom: var(--lightgrey-border);
+  transition: background-color 0.2s ease-in;
 }
 
 .sidebar-section-button:hover {
+  background-color: var(--lightgrey-color);
+}
+
+.active-button {
   background-color: var(--lightgrey-color);
 }
 
@@ -27,9 +38,9 @@
   width: 20px;
 }
 
-.open-form {
+.rotate-icon {
   transform: rotate(180deg);
 }
-.hide-form {
+.reverse-rotate-icon {
   transform: rotate(0);
 }

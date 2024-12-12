@@ -7,11 +7,12 @@
   color: var(--font-color);
   --font-color: rgb(37, 37, 37);
   --lightgrey-color: rgb(231, 231, 231);
-  --lightgrey-border: 2px solid var(--lightgrey-color);
+  --red-color: red;
   --lightblue-color: #3fd5f0;
   --grey-color: rgb(75, 75, 75);
   --white-color: rgb(250, 250, 250);
   --basic-shadow: 0 4px 8px #0003;
+  --lightgrey-border: 2px solid var(--lightgrey-color);
 }
 
 body {

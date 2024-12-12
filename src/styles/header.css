@@ -25,11 +25,12 @@ a > img {
 #menu-btn {
   background-color: inherit;
   transition: transform 0.2s ease-in-out;
+  padding: 0.6em;
+  border-radius: 8px;
 }
 
-#menu-btn:hover,
-#menu-btn:focus {
-  transform: scale(1.1);
+#menu-btn:hover {
+  background-color: var(--lightgrey-color);
 }
 
 #menu-btn > img {
@@ -39,7 +40,7 @@ a > img {
 .dropdown-menu {
   position: absolute;
   right: 0;
-  z-index: 1;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   box-shadow: var(--basic-shadow);
@@ -70,7 +71,7 @@ a > img {
 .drop-btn:hover,
 .drop-btn:focus {
   outline: none;
-  background-color: var(--lightblue-color);
+  background-color: var(--lightgrey-color);
 }
 
 .drop-btn > img {
