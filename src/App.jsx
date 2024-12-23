@@ -26,7 +26,7 @@ export default function App() {
 
       <div className="container">
         <Sidebar />
-        <Canvas />
+        <Canvas name />
       </div>
     </>
   );

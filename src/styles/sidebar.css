@@ -25,12 +25,14 @@
   transition: background-color 0.2s ease-in;
 }
 
-.sidebar-section-button:hover {
-  background-color: var(--lightgrey-color);
+.sidebar-section-button:hover,
+.sidebar-section-button:focus {
+  background-color: var(--whitegrey-color);
+  outline: none;
 }
 
 .active-button {
-  background-color: var(--lightgrey-color);
+  background-color: var(--whitegrey-color);
 }
 
 .sidebar-section-button > img {
@@ -43,4 +45,24 @@
 }
 .reverse-rotate-icon {
   transform: rotate(0);
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85em;
+  border: 1px solid var(--grey-color);
+  padding: 0.8em 1em;
+  margin-bottom: 1.1em;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.action-buttons img {
+  width: 18px;
 }
